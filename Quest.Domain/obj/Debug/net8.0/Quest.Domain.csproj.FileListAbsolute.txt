@@ -1,0 +1,11 @@
+C:\Users\PC\projects\csharp\Quest.Domain\obj\Debug\net8.0\Quest.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\projects\csharp\Quest.Domain\obj\Debug\net8.0\Quest.Domain.AssemblyInfoInputs.cache
+C:\Users\PC\projects\csharp\Quest.Domain\obj\Debug\net8.0\Quest.Domain.AssemblyInfo.cs
+C:\Users\PC\projects\csharp\Quest.Domain\obj\Debug\net8.0\Quest.Domain.csproj.CoreCompileInputs.cache
+C:\Users\PC\projects\csharp\Quest.Domain\bin\Debug\net8.0\Quest.Domain.deps.json
+C:\Users\PC\projects\csharp\Quest.Domain\bin\Debug\net8.0\Quest.Domain.dll
+C:\Users\PC\projects\csharp\Quest.Domain\bin\Debug\net8.0\Quest.Domain.pdb
+C:\Users\PC\projects\csharp\Quest.Domain\obj\Debug\net8.0\Quest.Domain.dll
+C:\Users\PC\projects\csharp\Quest.Domain\obj\Debug\net8.0\refint\Quest.Domain.dll
+C:\Users\PC\projects\csharp\Quest.Domain\obj\Debug\net8.0\Quest.Domain.pdb
+C:\Users\PC\projects\csharp\Quest.Domain\obj\Debug\net8.0\ref\Quest.Domain.dll

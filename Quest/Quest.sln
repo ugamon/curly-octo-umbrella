@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quest", "Quest.csproj", "{7363C9B0-D97E-4669-BFCF-943BE9DCB17F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quest.Domain", "..\Quest.Domain\Quest.Domain.csproj", "{A13BA3A9-5BC5-448C-99C4-0661BA6C70DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7363C9B0-D97E-4669-BFCF-943BE9DCB17F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7363C9B0-D97E-4669-BFCF-943BE9DCB17F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7363C9B0-D97E-4669-BFCF-943BE9DCB17F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7363C9B0-D97E-4669-BFCF-943BE9DCB17F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A13BA3A9-5BC5-448C-99C4-0661BA6C70DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A13BA3A9-5BC5-448C-99C4-0661BA6C70DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A13BA3A9-5BC5-448C-99C4-0661BA6C70DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A13BA3A9-5BC5-448C-99C4-0661BA6C70DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0DF128D5-94C0-48E9-A884-36005534EDBB}
+	EndGlobalSection
+EndGlobal
