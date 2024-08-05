@@ -16,7 +16,7 @@ namespace Quest.Domain
 
         public IHeroAttributes Attributes { get; } 
         
-        public List<Weapon>Weapons { get; set; }
+        public List<Weapon>Weapons {get; }
 
 
     }

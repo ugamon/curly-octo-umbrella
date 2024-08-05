@@ -11,4 +11,9 @@
     <ProjectReference Include="..\Quest.Domain\Quest.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.7" />
+  </ItemGroup>
+
 </Project>

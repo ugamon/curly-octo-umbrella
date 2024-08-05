@@ -1,28 +1,21 @@
 ﻿
+using System.ComponentModel;
+
 namespace Quest.Domain
 {
 
-    public class Archer : IPersona, IAction
-    {
-        public Archer() {
-            Name = "Deadly archer";
-            Description = "Deadly archer";
+    public class Archer: IHeroClass {
 
-        }
-        public string Name { get; }
+        public string Name => "Chaos archer";
 
-        public string Description { get; }
-
-        public double Damage => 0.5 * 100.0;
-
-       
+        public string Description => "Chaos archer";
 
         public override string ToString()
         {
-            return this.Name;
+            return $"{Name}";
         }
-
     }
+
 
     public struct Weapon(string name, double damage);
 
@@ -47,15 +40,19 @@ namespace Quest.Domain
     }
 
 
-    public class Hero(int age, string name, IHeroClass heroClass, IHeroAttributes attributes): IPersona
+    public class Person(int age, string name, IHeroClass heroClass, IHeroAttributes attributes): IPersona
     {
         public int Age => age;
         public string Name => name;
-        
         public int level { get; } = 0;
-
         public IHeroClass HeroClass => heroClass;
         public IHeroAttributes Attributes => attributes;
+
+        public List<Weapon> Weapons => [];
+
+        public void EquipWeapon(Weapon weapon){
+            this.Weapons.Add(weapon);    
+        }
 
         public void Shout() => Console.WriteLine($"Greeting! My name is {name} and i am a {heroClass} hero! \nWas born {age} ago in nearest village to become the most famous in the world!");
     }

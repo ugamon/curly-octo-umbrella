@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Quest.Domain;
 
-var myActiveHero = new Hero(35, "John", new Archer(), new ArcherAttributes());
+var myActiveHero = new Person(35, "John", new Archer(), new ArcherAttributes());
 
 
 
